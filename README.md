@@ -2,7 +2,7 @@
 
 A simple QR Code Generator App built with **ReactJS v19**, **TypeScript**, **CSS**, and **ViteJS**.
 
-This project walks you through setting up a modern React project using Vite, managing user input, integrating a color picker, customizing QR code dimensions, applying CSS styles, and generating QR codes via API calls.
+This project walks you through setting up a modern React project using Vite, managing user input, integrating a color picker, customizing QR code dimensions, applying CSS styles, and generating QR codes via API calls.https://goqr.me/api/
 
 ---
 
