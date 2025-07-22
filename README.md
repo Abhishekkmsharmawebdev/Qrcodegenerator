@@ -1,69 +1,105 @@
-# React + TypeScript + Vite
+# QR Code Generator App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple QR Code Generator App built with **ReactJS v19**, **TypeScript**, **CSS**, and **ViteJS**.
 
-Currently, two official plugins are available:
+This project walks you through setting up a modern React project using Vite, managing user input, integrating a color picker, customizing QR code dimensions, applying CSS styles, and generating QR codes via API calls.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Generate QR codes from custom text or URLs
+- Pick any color for your QR code
+- Set custom dimensions for the QR code
+- Download the QR code as an image
+- Responsive and stylish UI using CSS
+- Fast and modern stack (React 19 + Vite + TypeScript)
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+## 🛠️ Tech Stack
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- **ReactJS v19**
+- **TypeScript**
+- **ViteJS**
+- **CSS**
+
+---
+
+## 📦 Project Structure
+
+```
+Qrcodegenerator/
+├── public/
+├── src/
+│   ├── components/
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── ...
+├── package.json
+├── tsconfig.json
+└── vite.config.ts
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 📋 Getting Started
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### Prerequisites
+
+- [Node.js](https://nodejs.org/) (v18 or newer)
+- [npm](https://npmjs.com/) or [yarn](https://yarnpkg.com/)
+
+### Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/Abhishekkmsharmawebdev/Qrcodegenerator.git
+   cd Qrcodegenerator
+   ```
+
+2. **Install dependencies:**
+   ```bash
+   npm install
+   # or
+   yarn install
+   ```
+
+3. **Run the development server:**
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   ```
+
+4. Open [https://qrcodegeneratorslink.netlify.app/](https://qrcodegeneratorslink.netlify.app/) in your browser.
+
+---
+
+## 🎨 Usage
+
+1. Enter your text or URL.
+2. Pick your desired QR code color.
+3. Set the size/dimensions you want.
+4. Click **Generate** to create the QR code.
+5. Download the generated QR code image.
+
+---
+
+## 🤝 Contributing
+
+Contributions are welcome! Please open an issue or a pull request for bug reports, suggestions, or improvements.
+
+---
+
+## 📄 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+
+## 👤 Author
+
+**Abhishekkmsharmawebdev**
+
+- [GitHub](https://github.com/Abhishekkmsharmawebdev)
